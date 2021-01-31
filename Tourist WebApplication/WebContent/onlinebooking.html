@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Online Booking</title>
+<link rel="stylesheet" type="text/css" href="onlinbooking.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+<body>
+	<header>
+
+		<nav class="top">
+			<div class="logo">
+				<img class="rounded-circle" src="logo.png">
+			</div>
+			<a href="Home.html">Home</a>
+			 <a href="onlinebooking.html">OnlineBooking</a>
+			<a href="contact.html">Contact</a>
+			 <a href="about.html">About</a>
+		</nav>
+	</header>
+	<main>
+	<form action="" onsubmit="return submit1();">
+		<div class="ob">
+			<h1>Online Booking</h1>
+			Name<br> <input type="text" class="form-control" id="fname"><br>
+			<br> Contact Number<br> <input type="text"
+				class="form-control" id="cn"><br>
+			<br> Email<br> <input type="email" class="form-control"
+				id="mail"><br>
+			<br> Trip Destination<br> <select class="dropdown">
+				<option>Car Rental</option>
+				<option>Pune</option>
+				<option>Mumbai Airport</option>
+				<option>Shirdi</option>
+				<option>Mahabaleshwar</option>
+				<option>Nagpur</option>
+				<option>Ashtvinayak</option>
+				<option>Others</option>
+			</select><br>
+			<br>
+			<div id="details">
+				Journey Details and Date & Time<br> <input type="text"
+					class="form-control" id="dtl"><br>
+				<br> Pickup Address<br> <input type="text"
+					class="form-control" id="add"><br>
+				<br>
+			</div>
+			Terms & Conditions<br> <input type="checkbox">&nbspAccept
+			Below Terms & Condition<br>
+			<br> <input type="submit" class="btn btn-primary" value="Submit"
+				id="btn">
+			<p>
+		<h5 style="color:red;">Terms & Conditions :</h5>
+
+   - Cancellation Policy : The cancellation of journey will be informed before 48 hrs of your actual <br> &nbsp journey, 10% cancellation fee will be taken of your total journey fare.<br>
+   - Refund Policy :  The refund would be credited to the customer within seven (7) working days.<br>
+   - In case of offline booking handover booking cash amount to vehicle driver<br>
+   - Keep eye on your valuable assets during entering and exit from vehicle, We are not responsible for your valuable assets.<br>
+   - Full fair is applicable on 4 year plus children<br>
+   - No damage claim allowed during an accident<br>
+   - If you have complaints regarding car, the driver contact office immediately after finishing tour <br>&nbsp complaints will not be entertained.<br>
+   - Day calculated from 06:00 a.m. to 00:00 a.m. hrs<br>
+   - After 00:00 a.m. hrs charge will be Rs. 200 per hrs<br>
+   - Daily Driver allowance will be charge Rs. 200<br>
+   - Office to Office will add 15 km.<br>
+   - Minimum average per day is 300 km<br>
+    </p>
+		</div>
+			</form>
+			<div class="side">
+			<img src="dezire.png"><br><br>
+			<img src="5star.png" style="height:100px;"><br>
+			<hr>
+			<h3>Why Jay Malhar Tours?</h3>
+				- 100% on time every time.<br>
+				- No cab cancellation at any <br>&nbsp
+				  situation that's our<br> &nbsp commitment.<br>
+				- We run on single sit also.<br>&nbsp
+				  Passenger is GOD for us!<br><br><br>
+				  <hr>
+			<h3>Our Service</h3>
+				- Car Rental<br>
+				- Mumbai<br>
+				- Mahableshwar<br>
+				- Shirdi<br>
+				- Goa<br>
+				- Ashtvinayk<br>
+				- Monsoon Tours<br><br><br>
+			<hr>
+			<h3>Features</h3>
+				- 24*7 Customer Support<br>
+				- Money Back Guarantee<br>
+				- Highly Maintained Cars<br>
+				- Group Discount Available<br>
+				-100% Safety<br><br><br>
+					
+			</div>
+	</main>
+	<script type="text/javascript">
+		function submit1()
+		{
+			var sub=document.getElementById("btn").value;
+			if(sub)
+			{
+				alert("Submitted successfully...");
+			}
+		}
+	</script>
+</body>
+</html>

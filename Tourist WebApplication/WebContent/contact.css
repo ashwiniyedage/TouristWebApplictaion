@@ -1,0 +1,46 @@
+@CHARSET "ISO-8859-1";
+
+.top
+{
+	background-color:black;
+	height:100px;	
+	word-spacing:12px;
+	text-align:right;
+	padding:30px;
+	justify-content:space-between;
+	font-size:30px;
+}
+.top a:hover
+{
+	color:red;
+}
+.top .logo img
+{
+	width:350px;height:150px;
+	padding-top:none;
+	float:left;
+	align:center;
+	border: 5px solid red;
+}
+.div1
+{
+	padding-top:100px;
+	padding-left:50px;
+	padding-right:50px;
+}
+#qry input[type="text"]
+{
+	height:150px;
+}
+.map
+{
+	float:right;
+	padding-right:50px;
+}
+
+.div2
+{
+	padding-left:50px;
+	padding-right:50px;
+	float:left;
+}

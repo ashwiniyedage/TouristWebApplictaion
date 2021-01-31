@@ -1,0 +1,51 @@
+@CHARSET "ISO-8859-1";
+body
+{
+	background-image:url("regi.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.regi
+{
+	padding:20px;
+	
+	margin-left:700px;
+	margin-top:50px;
+	background-color:black;
+	height:750px;
+	width:600px;
+	position:obsolute;
+	box-sizing:border-box;
+	text-align:left;
+	color:white;
+	opacity:0.6;
+}
+.regi select
+{
+	height:35px;
+	text-align:left;
+	
+}
+.regi input[type="submit"]
+{
+	margin-left:150px;
+	width:200px;
+	height:40px;
+	border-radius:20px;
+	font-weight:bold;
+	font-size:20px;
+	background-color:blue;
+	color:white;
+}
+.regi label
+{
+	font-weight:bold;
+	font-size:20px;
+}
+.regi input[type="text"]
+{
+	height:30px;
+	width:350px;
+	color:red;
+	font-size:16px;
+};

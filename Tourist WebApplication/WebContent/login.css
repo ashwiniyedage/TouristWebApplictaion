@@ -1,0 +1,68 @@
+@CHARSET "ISO-8859-1";
+body
+{
+	background-image:url("log1.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.div1
+{
+	padding:70px;
+	top:50%;
+	left:50%;
+	margin-left:750px;
+	margin-top:150px;
+	background-color:black;
+	height:500px;
+	width:350px;
+	position:obsolute;
+	box-sizing:border-box;
+	text-align:left;
+	color:white;
+	opacity:0.6;
+}
+.div1 label
+{
+	font-weight:bold;
+	font-size:30px;
+}
+.div1 input[type="text"],input[type="password"]
+{
+	border:none;
+	border-bottom:1px solid #fff;
+	outline:none;
+	height:40px;
+	color:red;
+	font-size:16px;
+	background:transparent;
+}
+.div1 input[type="submit"]
+{
+	border-radius:20px;
+	height:40px;
+	font-weight:bold;
+	font-size:20px;
+	background-color:blue;
+	color:white;
+}
+.div1 input[type="submit"]:hover
+{
+	cursor:pointer;
+	background-color:red;
+}
+.div1 input
+{
+	width:100%;
+	margin-bottom:20px;
+}
+.div1 a
+{
+	font-size:25px;
+	font-weight:bold;
+	color:red;
+}
+.div1 a:hover
+{
+	cursor:pointer;
+	color:blue;
+};
